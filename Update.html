@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <!-- style start -->
+    <style>
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h2>
+            Hello Everyone Welcome to my Website!!!!
+        </h2>
+    </header>
+
+    <main>
+       <section id="info-section">
+            <ul id="ul">
+                <li>List Item-1</li>
+                <li>List Item-2</li>
+                <li>List Item-3</li>
+                <li>List Item-4</li>
+            </ul>
+       </section>
+    </main>
+
+    <footer>
+        <p class="foter-info">
+            Developed by emon
+        </p>
+    </footer>
+
+
+    <!-- script start -->
+    <script>
+
+        
+        let listElements = document.querySelectorAll("li");
+
+        console.log(listElements[0].parentElement);
+        console.log(listElements[0].childNodes);
+        console.log(listElements[0].nextSibling);
+        console.log(listElements[0].parentNode);
+
+
+        let ulcontainer = document.querySelector("#ul");
+        let li= document.createElement("li"); //it will create li
+        li.innerText = "New Li added dynamically"; //it will add data into inner html
+        ulcontainer.appendChild(li); //it will append the li
+        
+
+    </script>
+    
+</body>
+</html>

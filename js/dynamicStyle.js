@@ -22,3 +22,6 @@ articleHeader.classList.add("bg-yellow"); // it will add bg-yellow class
 articleHeader.classList.remove("text-center"); // it will remove text-center class
 
 
+
+
+

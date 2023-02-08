@@ -34,3 +34,47 @@ document.getElementsByClassName("section-info")[0].innerHTML= "<h2> Hello !!!</h
 document.getElementsByClassName("section-info")[1].innerText = "Dome change the inner text Wow Magic ...!!"
 
 
+// process of adding a segment in html using js:
+
+// step-1:(where To Add):
+const mainContainer = document.getElementById("main");
+
+// step-2:what to add:
+const sectionContainer = document.createElement("section");
+
+const headerContainer = document.createElement("h2");
+headerContainer.innerText = "HTML - Hyper Text Merkup Language";
+sectionContainer.appendChild(headerContainer);
+
+const infoContainer = document.createElement("p");
+infoContainer.innerText= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero iste officia fuga totam, distinctio sit, nobis eum maiores impedit quasi veniam ratione reiciendis. Minus perspiciatis libero labore suscipit quas iusto at magnam officiis. Deleniti harum cumque debitis ab nam laudantium praesentium, nostrum ipsa, quis aliquam repudiandae eligendi q";
+sectionContainer.appendChild(infoContainer);
+
+// step-3 add:
+mainContainer.appendChild(sectionContainer);
+
+
+// process-2 for adding a segment:
+
+// step-1:(where to add)
+const main = document.getElementById("main");
+
+// step-2 what to add:
+const section = document.createElement("section");
+
+section.innerHTML= `
+
+    <h2>
+    CSS- Cascading Style Sheet
+    </h2>
+    <p>
+    orem ipsum dolor sit amet consectetur adipisicing elit. Libero iste officia fuga totam, distinctio sit, nobis eum maiores impedit quasi veniam ratione reiciendis. Minus perspiciatis libero labore suscipit quas iusto at magnam officiis. Deleniti harum cumque debitis ab nam laudantium praesentium, nostrum ipsa, 
+    </p>
+
+ `
+
+// step-3: add
+main.appendChild(section);
+
+
+
