@@ -14,3 +14,15 @@ footer{
     font-size: 1.5rem;
     background-color: burlywood;
 }
+
+
+/* --------------------------------------------- */
+
+#sec-header{
+    color: blueviolet;
+}
+
+.list-items{
+    color: crimson;
+}
+
