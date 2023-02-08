@@ -1,0 +1,15 @@
+header{
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+}
+
+main{
+    background-color: beige;
+    font-size: 2rem;
+}
+
+footer{
+    text-align: center;
+    font-size: 1.5rem;
+}
