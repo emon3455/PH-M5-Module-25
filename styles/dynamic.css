@@ -1,0 +1,9 @@
+header{
+    background-color: antiquewhite;
+}
+
+.header-section-title{
+    color: coral;
+    text-align: center;
+    font-size: 3rem;
+}
